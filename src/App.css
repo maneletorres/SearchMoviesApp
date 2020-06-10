@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Movieslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Movie-Item {
+  margin-bottom: 20px;
+  width: 40%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
